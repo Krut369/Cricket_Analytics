@@ -1,0 +1,64 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ===============================
+# Virtual Environment
+# ===============================
+venv/
+.venv/
+env/
+ENV/
+
+# ===============================
+# Streamlit
+# ===============================
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# ===============================
+# Machine Learning Models
+# ===============================
+models/*.pkl
+models/*.joblib
+
+# ===============================
+# Data Files (Raw / Large)
+# ===============================
+data/*.csv
+data/*.parquet
+data/*.json
+
+# ===============================
+# Jupyter & Notebooks
+# ===============================
+.ipynb_checkpoints/
+*.ipynb
+
+# ===============================
+# Logs & Temporary Files
+# ===============================
+*.log
+*.tmp
+*.temp
+
+# ===============================
+# OS / Editor Files
+# ===============================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ===============================
+# Cache & Build
+# ===============================
+.cache/
+dist/
+build/
